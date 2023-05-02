@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language key="es" value="Spanish">
+  <!--company-->
+  <item key="copyright" value="©2023 Naventz Studio&#8482; All rights reserved."/>
+
+	<!--Example-->
+	<item key="example" value="Ejemplo"/>
+  
+</language>
