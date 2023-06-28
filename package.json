@@ -1,13 +1,25 @@
 {
-	"name": "com.nzlib.utilities",
-	"version": "2.2.0",
-	"displayName": "Naventz Utilities",
-	"description": "Naventz's utilities library",
-	"unity": "2021.3",
-	"author":
-		{
-		"name": "beejaycee",
-		"email": "beejaycee@naventz.com",
-		"url": "https://www.naventz.com"
-		}
+  "name": "com.naventz.utilities",
+  "version": "3.1.0",
+  "displayName": "Naventz Studio Utilities",
+  "description": "Package that contains multiple tools and utilities.",
+  "unity": "2021.3",
+  "documentationUrl": "https://www.naventz.com/",
+  "changelogUrl": "https://www.naventz.com/",
+  "licensesUrl": "https://www.naventz.com/",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "naventz",
+    "beejaycee",
+    "utilities",
+    "tools"
+  ],
+  "author": {
+    "name": "Naventz Studio TM",
+    "email": "contact@naventz.com",
+    "url": "https://www.naventz.com"
+  }
 }
