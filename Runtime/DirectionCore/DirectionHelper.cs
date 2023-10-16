@@ -58,5 +58,42 @@ namespace NZLib.Utilities.DirectionCore
             Debug.LogWarning("Direction given is not horizontal. Returning 'Up' by default.");
             return Direction.Up;
         }
+
+        /// <summary>
+        /// Returns Direction for the given tag.
+        /// </summary>
+        public static Direction GetDirectionByTag (string tag)
+        {
+            var t_tag = tag.ToUpper();
+            switch (tag)
+            {
+                case "UP":
+                {
+                    return Direction.Up;
+                }
+                break;
+                case "DOWN":
+                {
+                    return Direction.Down;
+                }
+                break;
+                case "LEFT":
+                {
+                    return Direction.Left;
+                }
+                break;
+                case "RIGHT":
+                {
+                    return Direction.Right;
+                }
+                break;
+                case default:
+                {
+                    Debug.LogWarning("Requested tag '" + t_tag + "' has not been considered. Returning 'Up' by default.");
+                    return Direction.Up;
+                }
+                break;
+            }
+        }
     }
 }
