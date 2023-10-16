@@ -65,7 +65,7 @@ namespace NZLib.Utilities.DirectionCore
         public static Direction GetDirectionByTag (string tag)
         {
             var t_tag = tag.ToUpper();
-            switch (tag)
+            switch (t_tag)
             {
                 case "UP":
                 {
