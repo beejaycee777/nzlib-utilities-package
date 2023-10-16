@@ -87,7 +87,7 @@ namespace NZLib.Utilities.DirectionCore
                     return Direction.Right;
                 }
                 break;
-                case default:
+                default:
                 {
                     Debug.LogWarning("Requested tag '" + t_tag + "' has not been considered. Returning 'Up' by default.");
                     return Direction.Up;
